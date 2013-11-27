@@ -1,3 +1,10 @@
+# MPS #
+source_gen
+source_gen.caches
+classes_gen
+.iws
+
+# Binaries #
 *.class
 
 # Package Files #

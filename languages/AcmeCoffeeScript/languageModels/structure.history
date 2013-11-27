@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="-1" />
+    </dependencies>
+    <rename id="qxoc.3299768100655899145" type="CONCEPT" from="MachineComponentInterface" to="MachineComponent" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="0" />
+    </dependencies>
+    <rename id="qxoc.3299768100655899145" type="CONCEPT" from="MachineComponent" to="Component" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="1" />
+    </dependencies>
+    <rename id="qxoc.3299768100656740986" type="CONCEPT" from="CoffeeMachine" to="Product" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="2" />
+    </dependencies>
+    <rename id="qxoc.3299768100656946669" type="CONCEPT" from="ComponentAssembly" to="ComponentInstance" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="3" />
+    </dependencies>
+    <rename id="qxoc.3299768100657648820" type="REFERENCE" from="type" to="medium" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="4" />
+    </dependencies>
+    <rename id="qxoc.3299768100656850157" type="CONCEPT" from="Plug" to="Input" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="5" />
+    </dependencies>
+    <rename id="qxoc.3299768100656850061" type="CONCEPT" from="Socket" to="Output" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="6" />
+    </dependencies>
+    <rename id="qxoc.3299768100656849735" type="CHILD" from="sockets" to="input" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="7" />
+    </dependencies>
+    <rename id="qxoc.3299768100656850153" type="CHILD" from="plugs" to="input" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="8" />
+    </dependencies>
+    <rename id="qxoc.3299768100656849735" type="CHILD" from="input" to="output" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="9" />
+    </dependencies>
+    <rename id="qxoc.3299768100656849735" type="CHILD" from="output" to="outputs" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="10" />
+    </dependencies>
+    <rename id="qxoc.3299768100656850153" type="CHILD" from="input" to="inputs" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="11" />
+    </dependencies>
+    <rename id="qxoc.3299768100657648073" type="REFERENCE" from="plug" to="input" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="qxoc" modelUID="r:e1302211-ca45-4c02-b32b-6cc9d02add26(AcmeCoffeeScript.structure)" version="12" />
+    </dependencies>
+    <rename id="qxoc.3299768100657648073" type="REFERENCE" from="input" to="output" />
+  </StructureModification>
+</history>
+
